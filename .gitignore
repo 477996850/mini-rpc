@@ -1,0 +1,32 @@
+# ---- Build artifacts ----
+target/
+build/
+out/
+*.class
+*.jar
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.claude/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Sensitive / local credentials ----
+*.pem
+*.p12
+*.key
+*.crt
+*.keystore
+
+# ---- GitHub tooling (VS Code extension hooks, unrelated to the project) ----
+.github/modernize/
